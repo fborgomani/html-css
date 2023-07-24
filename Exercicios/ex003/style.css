@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #df9ad7;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    color: #98559bb4;
+}
+
+.container img{
+    border-radius: 100px;
+    width: 20%;
+    border: #b14ab4 solid 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
