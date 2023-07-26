@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #da2727;
+  height: 210px;
+}
+
+#frete {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+  .navbar {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    margin: 10px 0 0; /* Margem superior para separar a imagem do nav */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Estilos para os links do nav */
+  .navbar a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+    color: black;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+
+  }
+  
+  .navbar a:hover {
+    background-color: #591010;
+    color: #fff;
+  }
