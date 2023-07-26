@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para a logo */
+  .logo img {
+    border-radius: 50px;
+    width: 15%;
+  }
+  
+  /* Estilos para o campo de busca */
+  .search input {
+    padding: 5px;
+    width: 250px; /* Ajuste a largura do campo de busca conforme necessário */
+  }
+  
+  /* Estilos para o botão de busca (opcional) */
+  .search button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Estilos para os ícones de redes sociais */
+  .social-icons img {
+    width: 30px; /* Ajuste o tamanho dos ícones conforme necessário */
+    margin-left: 10px; /* Espaçamento entre os ícones */
+  }
+  
