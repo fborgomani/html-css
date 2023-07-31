@@ -3,6 +3,32 @@
   padding: 0;
 }
 
-body{
-    
+main{
+  background-color: rgba(255, 255, 255, 0.719);
+  text-align: center;
+  height: 210px;
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+box-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+}
+main img{
+  border-radius: 50%;
+  width: 100px;
+padding: 20px;
+}
+
+.botao button{
+  outline: none;
+  border: 1px solid purple;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.botao button:hover{
+  opacity: .8;
+  cursor: pointer;
 }
