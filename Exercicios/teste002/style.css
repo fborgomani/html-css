@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.514);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.322);
+}
+header h1 {
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  color: white;
+  justify-content: space-between;
+}
+
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 20px;
+  background-color: rgba(68, 67, 67, 0.397);
+}
