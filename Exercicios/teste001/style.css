@@ -3,32 +3,71 @@
   padding: 0;
 }
 
-main{
-  background-color: rgba(255, 255, 255, 0.719);
-  text-align: center;
-  height: 210px;
-  width: 200px;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: rgb(42, 40, 44);
+  max-width: 500px;
+  min-width: 300px;
+  height: 100px;
   margin: auto;
-  margin-top: 10px;
   border-radius: 20px;
-box-shadow: 2px 2px 3px rgb(0, 0, 0);
-
+  margin-top: 30px;
 }
-main img{
-  border-radius: 50%;
+
+header h1 {
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+nav,
+ul,
+li {
+  display: flex;
+  width: 480px;
+  justify-content: center;
+  color: white;
+
+  border-radius: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  background-color: rgb(42, 40, 44);
+  text-align: center;
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.288);
+  height: 700px;
+}
+
+.card h1,
+p {
+  font-size: 20px;
+  color: white;
+}
+.img01 {
+  width: 300px;
+}
+.img02 {
+  margin-top: 35px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.img03 {
+  width: 120px;
+}
+
+.img04 {
   width: 100px;
-padding: 20px;
-}
-
-.botao button{
-  outline: none;
-  border: 1px solid purple;
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.botao button:hover{
-  opacity: .8;
-  cursor: pointer;
 }
